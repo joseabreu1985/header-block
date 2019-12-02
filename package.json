@@ -1,0 +1,50 @@
+{
+	"name": "lsx-blocks",
+	"version": "1.0.3",
+	"private": true,
+	"scripts": {
+		"start": "cgb-scripts start",
+		"build": "cgb-scripts build",
+		"eject": "cgb-scripts eject",
+		"makepot": "wp i18n make-pot . languages/lsx-blocks.pot --include=src,dist/getting-started"
+	},
+	"dependencies": {
+		"@wordpress/api-fetch": "^2.2.8",
+		"@wordpress/block-library": "^2.2.16",
+		"@wordpress/data": "^1.2.1",
+		"@wordpress/html-entities": "^1.0.3",
+		"@wordpress/i18n": "^1.2.3",
+		"babel-preset-es2015": "^6.24.1",
+		"cgb-scripts": "1.9.6",
+		"classnames": "^2.2.6",
+		"cryptiles": "^4.1.3",
+		"deep-extend": "^0.6.0",
+		"har-validator": "^5.1.3",
+		"hex-to-rgba": "^1.0.2",
+		"hoek": "^5.0.4",
+		"lazysizes": "^4.1.5",
+		"lodash": "^4.17.11",
+		"md5": "^2.2.1",
+		"moment": "^2.24.0",
+		"node-sass": "^4.10.0",
+		"querystringify": "^2.1.0",
+		"randomatic": "^3.1.1",
+		"re-resizable": "^4.9.3",
+		"react": "16.2.0",
+		"react-lazy-load": "^3.0.13",
+		"react-lazyload": "^2.5.0",
+		"react-slick": "^0.23.2",
+		"slick-carousel": "^1.8.1",
+		"sshpk": "^1.15.2",
+		"styled-components": "^3.4.10"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.1.5",
+		"@wordpress/babel-plugin-makepot": "^2.1.2",
+		"babel-cli": "^6.26.0",
+		"babel-plugin-lodash": "^3.3.4",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-stage-2": "^6.24.1",
+		"grunt-wp-i18n": "^1.0.2"
+	}
+}

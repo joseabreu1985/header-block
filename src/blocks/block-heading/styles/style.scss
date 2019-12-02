@@ -1,0 +1,39 @@
+/**
+ * Heading styles
+ * Loads on front end and back end
+ */
+
+ .wp-block-lsx-blocks-lsx-heading {
+	.lsx-title {
+		+ .lsx-title-line {
+			display: block;
+		}
+	}
+
+	&.left {
+		.lsx-title {
+			text-align: left;
+			+ .lsx-title-line {
+				margin: 2.4rem auto 0;
+				margin-left: 0;
+			}
+		}
+	}
+	&.center {
+		.lsx-title {
+			text-align: center;
+			+ .lsx-title-line {
+				margin: 2.4rem auto 0;
+			}
+		}
+	}
+	&.right {
+		.lsx-title {
+			text-align: right;
+			+ .lsx-title-line {
+				margin: 2.4rem auto 0;
+				margin-right: 0;
+			}
+		}
+	}
+}
