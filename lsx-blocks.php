@@ -27,3 +27,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Load internals
 require_once LSX_BLOCKS_PATH . 'classes/class-core.php';
 $lsx_blocks = lsx\blocks\classes\Core::get_instance();
+
+/** Calling Stylesheet */
+function link_css_stylesheet() {
+	wp_enqueue_style( 'lsx_heading_style', plugins_url( '/dist/blocks.style.build.css', __FILE__ ) );
+}
+add_action( 'wp_head', 'link_css_stylesheet' );
